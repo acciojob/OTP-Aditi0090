@@ -1,35 +1,18 @@
-/*  your css code here. If applicable */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
-.container {
+    font-family: Arial, sans-serif;
     text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
 }
 
-h1 {
+#verification_heading {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-p {
-    color: #555;
+#verification_subtext {
+    font-size: 16px;
     margin-bottom: 20px;
+    color: #555;
 }
 
 .code-container {
@@ -39,17 +22,16 @@ p {
 }
 
 .code {
-    width: 50px;
+    width: 40px;
     height: 50px;
-    text-align: center;
     font-size: 24px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
     outline: none;
-    transition: border-color 0.3s;
+    transition: border-color 0.2s;
 }
 
 .code:focus {
     border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
